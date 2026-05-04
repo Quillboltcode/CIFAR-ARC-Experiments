@@ -1,16 +1,33 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.DS_Store
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data
+data/
+outputs/
+*.pth
+*.checkpoint
+
+# IDE
 .vscode/
 .idea/
 *.swp
-*.log
-checkpoint/
-checkpoints/
-*.pth
-*.pt
-raw_data/
-wandb/
-.env
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kilo tooling (keep plans, ignore node_modules)
+.kilo/node_modules/
+.kilo/package.json
+.kilo/package-lock.json
