@@ -1,8 +1,22 @@
-torch==2.7.0
-wandb==0.22.0
-numpy==2.2.6
-huggingface_hub
-timm==1.0.12
-einops
-datasets
-diffusers
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+einops>=0.7.0
+
+# Data handling and metrics
+numpy>=1.21.0
+pandas>=1.3.0
+Pillow>=9.0.0
+
+# Logging and utilities
+tqdm>=4.62.0
+scikit-learn>=1.0.0
+matplotlib>=3.4.0
+
+# Optional: tensorboard for logging
+tensorboard>=2.10.0
+
+# For Kaggle notebooks (these preinstalled but listed for completeness)
+# kaggle
+# pandas
